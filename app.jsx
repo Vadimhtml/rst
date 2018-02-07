@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 
 class App extends React.Component {
     render() {
-        return <h1>Hello from RST</h1>;
+        const Title = styled.h1`
+            color: red;
+        `;
+
+        return <Title>Hello from RST</Title>;
     }
 }
 
